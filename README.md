@@ -2,20 +2,18 @@
 
 > A Vue.js project
 
-## Build Setup
+## 導入方法
 
 ``` bash
-# install dependencies
-npm install
+# モジュールの導入 ※・・・()内はyarnの場合
+npm install (yarn または yarn install)
 
-# serve with hot reload at localhost:8080
+# ビルドサーバーを立ち上げてで動かす
 npm run dev
 
-# build for production with minification
+# 本番用のためのビルドとミニファイの実行
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# ビルドした本番用ファイルでの実行
+npm start
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
